@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>姐姐直播app</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到姐姐直播app</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于姐姐直播app</h2>
+<p>姐姐直播app</p >
+<p>姐姐直播github 姐姐直播ios下载 姐姐直播ios 姐姐 …姐姐直播App提供和明星近距离互动的机会 ，用户可以观看姐姐直播明星的实时直播视频，让用户更加深入了解和亲近自己喜爱的明星，而且有丰富多样的互动 …</p>
+<p>姐姐直播官方版-相关推荐-应用宝官网来腾讯应用宝预约姐姐直播官方版，获取姐姐直播相关热门应用下载！</p>
+<p>姐姐直播app下载-姐姐直播最新版v6.0.6 - 逗游网2024年6月25日姐姐直播为你带来最有趣的直播观看体验，姐姐直播内汇聚了很多才艺主播，这里的主播都是多才多艺的，为你带来最好听的歌声、最炫酷的 …</p>
+<p>姐姐直播app下载-姐姐直播手机apk安装包下载v2.0.23.2_973软件2025年3月9日《姐姐直播》是一款相当优秀的美女直播平台，软件中漂亮的主播与你精彩互动，各种高颜值主播，让你感受观众的直播内容，软件中的主播首页有多种主播动态，让你更容 …</p>
+<p>姐姐直播下载-姐姐直播软件6.0.6手机版-秒速下载2024年12月8日姐姐直播，这是一款高颜值网红手机直播交友app，主播超多，总有一款适合你。 在这里，你可以与高颜值网红亲密互动，开启你的浪漫 …</p>
+<p>姐姐直播app下载-姐姐直播最新版下载安装 v1.0.1安 …2024年12月12日姐姐直播是一个非常有趣的网红直播娱乐平台，拥有流畅、高品质的视频直播画面、现场震撼的音效，以及演唱会的高清视频直播，你可以 …</p>
+<p>姐姐直播下载_姐姐直播app下载2024官网版-游家吧5 天之前姐姐直播是一个汇聚众多迷人女性的直播聚合应用，这里的主播们通过在线直播与观众分享生活点滴，提供一个相互交流、分享快乐的空间。 这个平台让用户能够轻松互动，与心 …</p>
+<p>姐姐直播app下载-姐姐直播最新版下载-七星软件园2023年5月22日姐姐直播是一款能够让用户实现在线交流、电商直播等功能的社交直播软件。 姐姐直播功能：1. 支持用户进行一对多或多对多的视频直播。 2. 提供了丰富的直播功能，如优 …</p>
+<p>姐姐直播App下载-jjtv姐姐直播2024最新版 6.0.6 官方版-三酷 ...2024年12月12日姐姐直播App又叫大小姐直播，是一款高颜值网红直播软件，在这里可以和高颜值的主播一起交流互动，精彩活动玩不停，连麦、pk、秀歌技、秀才华等。</p>
+<p>姐姐直播平台下载-姐姐直播app版下载v4.5.0 - 飞游网2024年8月21日姐姐直播下载根据用户喜好推荐优质直播和短视频，支持同城主播互动和私聊功能，带来个性化的观看体验。 通过姐姐直播间，你还能结识 …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>凹凸导航github</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到凹凸导航github</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于凹凸导航github</h2>
+<p>凹凸导航github</p >
+<p>Aotu.io「凹凸实验室」 - 产品经理导航2022年6月9日凹凸实验室 (Aotu.io) 始建于2015年，是一个年轻基情的技术社区组织。 O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原 …</p>
+<p>优秀开源导航合集 - 知乎2023年5月15日本项目致力于收集整理优秀的导航项目以及一些优质稳定的导航站的搜集整理。 项目介绍：一个轻量导航站，汇总你的所有服务。 项目亮点：全平台支持，单文件部署，有 …</p>
+<p>凹 凸 小 黄 鸭 导 航 +github — Yandex: found 150 thousand ...小黄鸭 github导航 凹凸 - There's An AI For That Maverick is an automated code review tool designed to complement GitHub's Copilot.</p>
+<p>GitHub - ymbl16-cc/miao: 妙物指南小黄鸭导航2025年8月26日⚠️ 如果你无法打开链接或者遇到网页阻塞，请不要担心！ 尝试等待约5分钟再刷新页面，或者换一个浏览器进行访问。 你还可以尝试切换数据流量或更改Wi-Fi连接，通常 …</p>
+<p>github地址_51CTO博客_阅读 github地址2024年1月11日github地址 转载 wx659baf6d4e157 2024-01-11 07:19:51 博主文章分类： 工具下载 文章标签 github 文章分类 HarmonyOS 后端开发</p>
+<p>github 搭建个人导航网_小黄鸭导航github-CSDN博客2025年1月6日具体实现是使用 vue3 编写，白嫖 github 的 page 部署. 首先在 github上创建一个仓库：name.github.io # name是你 github 的名字. 然后在本 …</p>
+<p>凹凸蓝导航github图片_凹凸蓝导航github动态图_凹凸蓝导航 ...SOOGIF为您提供凹凸蓝导航github动图大全,这里可以找到全部的凹凸蓝导航githubgif动态图片,以及凹凸蓝导航github动图表情包供您下载使用,本次SOOGIF共为您找到582705张关于凹凸蓝 …</p>
+<p>正品蓝导航最收录最全 - 穆世明博客2025年8月6日凹凸导航正品蓝导航提供了个性化定制的功能，用户可以根据自己的喜好，自定义导航栏图标、布局和背景，使得导航界面更符合个人偏好。而且，用户可以将常用的网站添加 …</p>
+<p>【github导航凹凸SU模型下载】Enscape/V-Ray渲染即用-3D ...3d溜溜网 (3d66)的github导航凹凸SU模型素材库，给设计师提供各种风格和场景的高精度SU专用模型下载，每个SU模手工减面，高速打开SU模型，Enscape预设专用库，V-Ray兼容材质+贴 …</p>
+<p>github 导 航 凹 +凸 — Yandex: found 59 thousand resultsGitHub是一个在线软件源代码托管服务平台，用于公开程序或软件的代码。 使用Git作为版本控制软件，由开发者克里斯&#183;汪斯崔斯、P&#183;J&#183;海特和汤姆&#183;普雷斯顿&#183;沃纳使用Ruby on Rails编写而成。</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

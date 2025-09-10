@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在线导航在线看</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到在线导航在线看</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于在线导航在线看</h2>
+<p>在线导航在线看</p >
+<p>在线视频 - 技术导航技术导航为你提供最新在线视频网站，同时提供了在线视频网站大全和网站合集。 无论你是工程师、开发者、产品经理、设计师，还是技术爱好者，都可以在技术导航找到心仪的技术网站，技 …</p>
+<p>在线观看 - 开发者导航统一影视提供最新电影、电视剧、动漫、综艺在线观看，海量正版高清视频免费观看，支持手机电脑同步观看，更新快，画质好，打造极致追剧体验。</p>
+<p>好看的电视剧电影综艺动漫视频平台，热门高清视频 …Hao123影视大全为您提供最近好看的电视剧、电影、动漫、综艺节目推荐和排行榜并可在线免费观看百度影音伦理电影、动作片、喜剧片、爱情片、搞笑片高 …</p>
+<p>番剧在线,CliCli-呲哩呲哩番剧在线官网，番剧在线导航为您 ...茶杯狐是中国最大的影视资源聚合搜索引擎，实时聚合全网优质影视资源，同时支持在线、下载和字幕。 电影、电视剧、动漫、综艺应有尽有。 Tina视频网拥有海量的番剧资源，涵盖了多种 …</p>
+<p>一站导航专业权威的上网导航。 包含音乐、视频、小说、游戏、财经等上百个分类的优秀站点，提供简单便捷的网上导航服务，是中国网民非常喜欢的上网主页</p>
+<p>在线导航蓝色影视，海量高清视频等你来！在在线导航蓝色，用户无需注册或支付任何费用即可在线免费观看各种类型的影视。 以下是主要特点和优势：完全免费：无需注册或支付费用。</p>
+<p>懂点导航2024年12月10日懂点导航，更懂你！ 为你提供上网搜索、小说电影、免费工具等一站式服务。</p>
+<p>在线TV_电视台直播_实用网址导航2019年8月11日搜集最新最全的网络电视直播在线观看地址,收录全国各省市卫星电视台和地方电视台以及世界各地电视台,让您在网上也能看高清网络电视,打造绿色干净流畅的直播网站。</p>
+<p>【视频】_视频网站大全，电影，电视剧，综艺_hao123视频 ...hao123 导航 一键登录 观看记录 首页 电视剧 电影 综艺 脱口秀 网络自制 搞笑 少儿 纪录片 视频名站</p>
+<p>2345视频 - 海量高清免费在线视频；娱乐视频 – …2345视频是2345网址导航旗下的短视频平台，致力于为不同人群提供优质精彩的短视频内容，全面覆盖娱乐、体育、搞笑、影视、音乐、美食、萌宠、汽车等 …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

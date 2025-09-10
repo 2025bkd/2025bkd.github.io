@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神宫寺庙</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到神宫寺庙</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于神宫寺庙</h2>
+<p>神宫寺庙</p >
+<p>明治神宫｜目的地｜【官方】日本国家旅游局 (JNTO)2022年11月18日明治神宫位于 东京 市中心，绿树成荫，供奉着带领日本成为现代化国家的明治天皇 (1852-1912) 和昭宪皇太后。 从通往神宫御本殿的幽静 …</p>
+<p>「神社、大社、神宫、宫、寺庙」有什么区别？|神道|江户 ...2020年7月4日日光东照宫是一位于日本栃木县日光市山内，建于1617年的神社，属于德川家灵庙之一，主要祭祀的是将江户幕府初代将军德川家康神格化后的神明“东照大权现”。</p>
+<p>翻译此结果Meiji Jingu2 天之前Meiji Jingu Official Website|Meiji Jingu is one of the Shinto shrines in Japan, with the vast land of the forest (70 ha.), located in the middle of the megacity, Tokyo.</p>
+<p>【日本】东京明治神宫半日游：神社参观路线、参拜仪式 ...2025年7月31日明治神宫代表了神道信仰的核心，这是日本的主要宗教之一。 在这里，你可以亲身体验神道信仰的仪式，如鞠躬、祈祷和参拜，同时也了解日本文化和传统。</p>
+<p>日本神圣之地：了解神宫、神社和大社在神道文化中的区别2024年10月20日本文将聚焦于这些代表日本宗教和文化特色的”神圣之地”，探讨神宫、神社、大社之间的差异。 这些地方承载着日本历史和信仰的重要部分，理解它们的差异可以让我们一 …</p>
+<p>神宫寺什么意思?作何解释? - 百度知道2024年4月6日神宫寺，亦称作神宫院、宫寺、神愿寺、神护寺或神供寺，是指位于日本桐闭神社内，专门为了服侍神祇而设立的寺院。 2. 这种寺院通常基于本地垂迹说，是日本特有的宗教 …</p>
+<p>从“明治神宫”原宿的喧嚣中走一步就是镇守之杜2020年8月5日明治神宫是1920年为纪念主导近代日本基础建设的明治天皇和晋升天皇的功德而设立的。 为了祭奠明治天皇和昭宪皇太后，建造人们静静祈 …</p>
+<p>神宫寺 | 佐渡观光导航神宫寺所珍藏的铜钟是日本国的重要文化财。 本来是为祈求佐渡守护・北条宣时的武运以及世间的平安，在镰仓时代末期被敬献到正光寺（佐渡市羽吉）的。</p>
+<p>神宫寺-佛学大字典-中佛网1970年1月1日奈良时代，每于神宫与诸大社中设置神宫寺。 至平安时代，全国各地之神社内，皆设有神宫寺，其中，间或有领取官方俸禄者。 至江户末期，神宫寺之势力盛极一时。 及 …</p>
+<p>神宫寺 | 文化遗产构成 | 日本遗产 鬼怪化身成佛之乡「国东」过去好像曾有过很多的分庙、分宫，地处大岳山山腰，设有正殿、厨房、讲经堂旧址、六所权现社。 在正殿供奉的是不动明王，明治时期在修正鬼会上讲经堂被大火把上的火点燃，遭遇火灾 …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
