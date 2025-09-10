@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>想要导航页提示</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到想要导航页提示</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于想要导航页提示</h2>
+<p>想要导航页提示</p >
+<p>御用导航提示页面_UI网站导航设计知识与五个知识案 …2020年12月3日通过五个实用建议帮助您改善网站导航，包括规划网站结构、理解用户流程、使用直观的文字、合理利用汉堡菜单及采用有效的导航布局。</p>
+<p>想要导航提示页 (推广页): 打造引人注目的在线广告页面-恒普 ...2024年8月16日通过精心设计和优化，可以吸引用户的注意力，提升页面的转化率，从而实现广告营销的目标。 在竞争激烈的网络广告市场中，不断优化和创新是打造成功广告页面的关键 …</p>
+<p>翻译此结果GitHub - yuyongdaohang2020/-⭐️ 👉 备用最新地址： HttpS://yydh11.com. ‼️ ‼️ 长按复制到浏览器里面访问以上网址 ‼️ ‼️. ‼️ 請使用Ctrl+D進行收藏本站!|电脑/Ipad/手机在线播放 ‼️. 📧 邮箱联系方式: …</p>
+<p>想要导航提示提醒页入口 - 智能助手通过用户测试、问卷调查等方式了解用户对导航提示提醒页入口的看法和建议，以便不断改进设计。 融合AI技术：利用AI技术对用户行为进行分析和预测，为 …</p>
+<p>想要导航提示页正式版推广全新上线 - 黑龙江农业职业技术学院2025年8月10日通过全面剖析，读者将深入了解&quot;想要导航提示页正式版&quot;如何通过AI赋能，为用户提供更智能、更个性化的导航服务，同时为智慧城市建设贡献力量。</p>
+<p>想要导航提示页 (推广页) 怎么进入网站的导航页面提 …2024年11月13日要找到导航页面提示界面入口，您可以按照以下步骤进行操作。 首先，您需要确认您需要导航的网站是什么。 如果您已经打开了该网站， …</p>
+<p>御用导航提醒提示页是什么 (导航想要App提醒提示页)2024年2月3日御用导航提醒提示页是什么?通常，导航页面会在网站的首页或顶部菜单栏中找到。 如果您仍然无法找到导航页面的提示，请尝试使用该网站 …</p>
+<p>想要导航提示页 (推广页): 如何设计吸引人的推广页面-鸿远下载站2024年8月20日一个成功的推广页面应该具有引人注目的视觉设计、清晰的信息传达以及引导用户进行交互的元素。 以下是一些设计吸引人的推广页面的关键要素： 1. 引人注目的视觉设 …</p>
+<p>想要导航推广网页怎么做,想要导航提醒页界面app_ …2024年2月8日想要导航推广网页和设计导航提醒页界面App，需要从多个方面进行综合考虑。 用户体验、SEO优化、社交媒体推广、定期更新与维护、数据 …</p>
+<p>想要导航提示进入页_一个值得全体信息流优化师和SEMer ...2020年12月2日所以，一个想要吸引用户留下来看到你销售文案的落地页，需要特别注意下列 3个节点 的设计： 第一眼唤起情绪. 一个好的落地页，给人的第一眼需要符合以下两个条件： …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

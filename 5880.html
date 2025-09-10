@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>acgdh.cn</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到acgdh.cn</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于acgdh.cn</h2>
+<p>acgdh.cn</p >
+<p>C站-CliCli | ACG导航网-全网优质ACGN资源二次元资源导航 ...中国最大最权威的正版动漫网站，连载众多原创国漫，原创动画，正版日漫等海内外最热正版动漫内容，为上千万动漫爱好者提供漫画、动画、资讯、论坛一站式全方位动漫服务，为原创动漫 …</p>
+<p>AGE动漫AGE动漫 is a platform offering a variety of anime content with engaging stories and characters in a vibrant fantasy world.</p>
+<p>ACG导航网 — Yandex: found 125 thousand results甄选全网超实用动漫和美图（动漫番剧、在线里番、P站精选、3D动漫、AI绘画、ACG资源）优质二次元网站，为二次元同好们提供精准、有效、多样化的导航服务以. ACG导航网-专注收集网 …</p>
+<p>ACGN相关常用网址（2022年版） - 北大未名BBS2023年7月18日北大未名BBS动漫天地版块发布的ACGN相关常用网址2022年版，提供与ACGN相关的实用链接资源。</p>
+<p>番剧列表 - AcFun弹幕视频网 - 认真你就输啦 (?ω?)ノ- ( ゜- ゜)つロAcFun是国内首家弹幕视频网站，这里有全网独家动漫新番， 友好的弹幕氛围，有趣的UP主，好玩有科技感的虚拟偶像，年轻人都在用。</p>
+<p>ACG导航网 - 二次元 (ACGN)网站导航姬 ٩ (๑&gt; &lt;๑)۶ …CG导航网是一个专门为二次元 (ACGN)爱好者设计的网站导航姬。 它提供了一个简单易用的界面，让用户可以轻松地访问各种二次元相关的网站和资源。 该 …</p>
+<p>ACG导航站 | 专注ACG动漫、ACG游戏、ACG漫画2025年3月4日聚合正版平台、同人社区、攻略工具及ACG赛事资讯，二次元用户必备的ACG资源中枢，助你快速发现优质内容，探索专属二次元世界。 内容仅供参考： 大神建站 - …</p>
+<p>ACG导航2024年11月8日ACG导航是一个收录最新最热门ACG动漫资源网站、漫画网站、动漫资源、动漫资讯、动漫音乐、萌网站、轻小说、二次元等相关网站导航大全，让您获得更加简单快捷的二 …</p>
+<p>ACG导航网 - 二次元 (ACGN)网站导航姬 ٩ (๑&gt; &lt;๑)۶| acgdh ...2024年10月1日ACG导航网 (acgdh.cc) 甄选全网超实用各类型（动漫番剧、在线漫画、P站精选、ACG游戏、ACG软件、ACG资源）优质二次元网站，为二次元同好们提供精准、有效、多 …</p>
+<p>动漫星空_综合动漫门户2 天之前9月4日，芥见下下的新作公开详情，是《咒术回战》续篇，漫画确定了乙骨忧太和禅院真希结婚，引发网友热议。 《咒术回战》将推出外传小说， …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
