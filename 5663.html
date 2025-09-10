@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>公交车漫画</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到公交车漫画</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于公交车漫画</h2>
+<p>公交车漫画</p >
+<p>《SQ》公交车-在线漫画-下拉式漫画-腾讯动漫官方网站《SQ》《公交车》在线阅读，漫画《SQ》简介：二附中的孙璟发现常会在公交车站遇到南高的秋瞳，终于有一天，孙璟鼓起勇气询问了秋瞳的名字，于是爽朗坦率的孙璟与温柔纯真的秋瞳成 …</p>
+<p>漫画全集在线观看 - 哔哩哔哩漫画2025年9月1日哔哩哔哩正版漫画阅读平台, 海量官方漫画连载在线观看, 二次元动漫迷的追漫神器, 热门漫画: 海贼王, 五等分的新娘, 约定的梦幻岛, 辉夜大小姐想让我告白 ~天才们的恋爱头脑 …</p>
+<p>公交漫画_漫画搜索_动漫屋公交车站漫画 ，一个韩国恐怖漫画，深夜里不要随便坐公交车，不要随便看陌生人。 很恐怖，不过没有gif图，安了！ 动漫屋是漫画搜索、在线漫画为一体的平 …</p>
+<p>《公交车日记趁热》漫画全集免费阅读_高清下拉式观看 ...2 天之前看过《公交车日记趁热》的人还看过 枯萎之花上的眼泪 评分: 最新 第56话</p>
+<p>搜索在公交车上做的韩漫漫画_漫画大全_漫画全集_一耽漫画2025年5月28日简介：偷窥又名《偷窥男》《偷窥者》《窥视者》等等，是一本超火爆，非常受欢迎的韩国漫画，是一部讲述了一人从小就有偷窥的癖好，他认为人生就是一张大的独播，他 …</p>
+<p>公交_在线漫画-漫画站2023年2月25日公交漫画简介：漫画岛获正版授权刊载的幽默、搞笑类小漫画，以猝不及防的冷幽默给大家的休闲时光带来清新一刻的放松。</p>
+<p>公交车日记_漫画最新章节免费阅读 (下拉式) - 读漫屋读漫屋为您提供《公交车日记》漫画最新章节免费阅读，页面清爽简洁，让阅读成为一种享受。 剧情介绍：公交车上的日常欢乐故事。</p>
+<p>目录_公交车日记漫画_在线漫画阅读_极速漫画2016年6月26日&lt;漫画名 漫画简介&gt;：欢迎观看公交车日记漫画极速漫画提供公交车日记漫画176在线阅读和公交车日记176第一时间更新，同时也是国内公交车日记漫画最快最全的在线 …</p>
+<p>《公交车日记》-漫画全集在线阅读-爱奇艺叭嗒2025年6月21日《公交车日记》漫画全集在线阅读，《公交车日记》为搞笑类型漫画作品。 《公交车日记》主要内容为公交车日记简介。</p>
+<p>公交车闹剧|公交男女 | 官方在线漫画全集-快看漫画公交男女简介：《公交男女爆笑漫画》讲述的是文艺青年大可、温柔女神飘飘、伪白富美李妹、宅男货哥、没品男馍馍、女汉子攀姐在出行途中和生活中上演的爆笑故事。</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
