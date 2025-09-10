@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天美传媒网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到天美传媒网站</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于天美传媒网站</h2>
+<p>天美传媒网站</p >
+<p>天美传媒有限公司官网 - 专业影视制作与传媒服务2025年6月26日天美传媒有限公司官网，专业提供影视制作、广告拍摄、品牌策划等全方位传媒服务。 天美传媒致力于打造高品质的影视作品和创意内容。</p>
+<p>天美影视 – 天美影视传媒有限公司-官网2024年5月13日天美影视传媒有限公司根植于台湾这座“创新之城、开放之城”，是一家以影视投资、广告制作和艺人经纪业务为核心的专业化影视传媒公司。</p>
+<p>Executive Team | 天美传媒Meet the 天美传媒 Executive Team who work together to inspire us on our mission to improve today, to work towards a better tomorrow.</p>
+<p>天美传媒 – 天美传媒有限公司官网首页2025年1月9日天美传媒有限公司是一家以影视投资、广告制作、文化传媒及艺人经纪业务为核心的影视传媒公司。 公司实现教育与产业的融合，持有台湾戏剧学院•天美传媒有限公司49%股 …</p>
+<p>天美传媒2025年5月30日最近，天美传媒 举办了CATTI考前系列讲座，分别邀请了巫和雄老师和王冬梅老师就CATTI考试注意事项和翻译技巧进行了深入的讲... 4月14日下午，日语系精品企业课程第 …</p>
+<p>天美传媒-天美影视-天美影视传媒官网天美传媒成立于2010年，是一家集电影、电视剧制作、发行于一体的专业影视公司。 公司拥有一支高素质的创作团队，致力于打造高品质的影视作品。</p>
+<p>天美传媒&#183; (中国区)官方网站-在线TM视频作为一家集家具设计、制造、销售以及传媒服务于一体的综合性企业，深圳市天美传媒时尚艺术家具有限公司汇聚了一支由资深设计师、传媒专家以及市场运营团队组成的精英团队。</p>
+<p>天美传媒-真人演绎尽在天美传媒官网2025年5月24日牢记回家地址:kweyso.cr2026.com，所有APP站长亲自认证，请各位色友放心下载 ！ 天美传媒-真人演绎尽在天美传媒官网 2025级高等学历继续教育新生开... 高等教育出版 …</p>
+<p>精东影视传媒制作公司-官方网站2024年5月30日我们持有台湾戏剧学院•天美影视传媒有限公司49%股权，是唯一一家与台湾戏剧学院股权合作的影视传媒制作公司。 延揽有创业活力与创业精神的影视人才加入，为公司“未 …</p>
+<p>天美传媒网站|天美传媒大视频与tm0009资源站2025年3月9日天美传媒网站为用户提供高质量视频内容，涵盖tm0009及免费网站资源。 精选丰富内容，满足不同用户的观看需求，打造高清流畅的体验。</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

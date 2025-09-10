@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小仙女 导航</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到小仙女 导航</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于小仙女 导航</h2>
+<p>小仙女 导航</p >
+<p>美女 - 开发者导航开发者导航网（codernav.com）收录了大量免费优质的AI人工智能、资源干货、在线工具等众多分类的网站，千余良心网站供您随时享用，是一个能够提高生活质量、工作效率和学习成绩的综 …</p>
+<p>小 +鸟 导 航 — Yandex: found 62 thousand resultsx导航提供精选优质福利网址导航大全. 女神视频：国产视频、网红主播、萝莉少女、明星换脸、网红探花、传媒拍摄、优质无码、典藏有码、欧美黑人、欧美精选、伦理三级、网曝黑料、动漫 …</p>
+<p>萌导航, 你的二次元导航姬！你的二次元导航姬！ 及时收录动漫网站及资讯、宅网站、萌网站、动画、漫画、游戏等内容。 让您获得更加简单快捷的二次元体验！</p>
+<p>小仙女导航-小仙女导航v9.8.3 - 古诗文网2025年8月16日首先，打开您的浏览器，输入小仙女导航的官方网址（/zwang/46936242.html）。 您可以通过搜索引擎搜索或直接输入网址来访问。 一旦进入小 …</p>
+<p>小仙女导航入口 - 海量影视资源，畅享高清观影体验小仙女导航入口是一个专注于提供海量影视资源的视频网站，涵盖电影、电视剧、综艺、动漫等多种类型，高清画质，流畅播放，满足你的追剧需求。</p>
+<p>小仙女导航免费精品_BD在线观看_HD720高清手机免费播放 ...6 天之前小仙女导航免费精品剧情简介:在楚老爷子眼里 陈奇没有在楚家生活和楚家没有感情 就算是陈奇继承了楚家会不会背叛楚家还是个两说 毕竟没有自己亲孙子实诚我从来都没有这样 …</p>
+<p>小仙女导航仪的个人空间-小仙女导航仪个人主页-哔哩哔哩视频哔哩哔哩小仙女导航仪的个人空间，提供小仙女导航仪分享的视频、音频、文章、动态、收藏等内容，关注小仙女导航仪账号，第一时间了解UP主动态。</p>
+<p>官方推荐小仙女导航万物互联时代重构生活边界2025年7月4日而在这波浪潮中，一款专为现代女性定制的“官方推荐”智能导航工具——“小仙女导航”，应运而生。 它不仅兼具实用性，更融入了趣味性与个性化，让每一位小仙女都能在数字 …</p>
+<p>幸福导航 (白茶小仙女吖)小说全本在线阅读-起点中文网官方正版2024年7月21日幸福导航是白茶小仙女吖创作的都市生活类小说,起点中文网提供幸福导航部分章节免费在线阅读,此外还提供幸福导航全本在线阅读。</p>
+<p>小仙女官网导航 - 最新影视资源一站式观看平台小仙女官网导航是一个专注于影视资源的在线观看平台，汇集了海量热门电影、电视剧、综艺节目和动漫作品。 无论你是喜欢追剧的影迷，还是热衷于综艺娱乐的观众，这里都能满足你的需求。</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

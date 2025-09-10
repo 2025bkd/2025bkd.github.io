@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研究所导航网站</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到研究所导航网站</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于研究所导航网站</h2>
+<p>研究所导航网站</p >
+<p>科研导航 | 科研人员一站式导航工具 - 科研通科研通科研导航，专为科研人员提供的导航工具，包括期刊论文、科研工具、专利标准、基金等，科研人员必备良站。</p>
+<p>【不良研究所】最新导航发布页2025年7月5日10点导航独家爆料与最新热门分享，最全面的福利导航，精选全球优质福利站点，每日更新，努力做到推荐好站，请记住我们！</p>
+<p>8个学术类导航网站 - 知乎2021年12月28日名单如下 爱学术导航： 爱学术导航 | 爱学术导航是科研学术信噪比最高的导航站，致力于成为国内领先的科研与学术资源导航平台，为科研 …</p>
+<p>万有学术导航 - 全面的科研与学术资源导航平台丨一糖导航微软学术搜索（Microsoft Academic Search）是微软研究院开发的免费学术搜索引擎。 它为科学研究人员查找学术论文、国际会议、权威期刊、作者和研究领域等提供了一个更加智能、新颖的 …</p>
+<p>科研导航网站2025年8月5日科研工具一站式导航 集合文献检索、数据分析、论文写作等科研必备工具，提高您的科研效率</p>
+<p>帝王导航官网 — Yandex: found 67 thousand results不良研究所官方导航 欢迎来到不良研究所. 探索网络优质资源，做好看好玩好用的福利导航. ... 关于我们. 不良研究所导航专注于网络优质福利资源收集和分享，努力做一个好看好玩好用的福 …</p>
+<p>搞科研导航 | 一个专为科研学术人员设计的导航网站，这里是 ...如果你喜欢本站，烦请推荐给你身边的小伙伴们！ 1. AI教父辛顿：AI正在压缩入门. 2. 施普林格&#183;自然成立中国学术顾问. 3. 直播预告|金涌院士带您“碳”索. 4. 中国科学院团队发布类脑脉冲大模. …</p>
+<p>科研废物导航 - 科研，从这里开始！科研废物导航 (yanweb.top)，沉淀最具价值的科研学术链接，全站无商业推广，简约而不简单。</p>
+<p>神秘研究所入口官网2025年7月26日从尘封的机密档案、未被公开的实验记录，到离奇现象的一手资料，我们汇集了全球最神秘、最引人深思的研究与发现。</p>
+<p>研究所导航入口 - 影视视频网站！研究所导航入口专注于成影的视频网站，旨在为全球成影影视爱好者提供一个便捷的观影平台。 无论是动作、冒险、奇幻还是爱情、喜剧，研究所导航入口都能满足您的观影需求。</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
