@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>你懂的的网站 晚上</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到你懂的的网站 晚上</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于你懂的的网站 晚上</h2>
+<p>你懂的的网站 晚上</p >
+<p>最适合晚上睡不着看的 8 个网站，建议收藏哦 - 知乎一个涵盖了几乎所有编程教程的文档网站，不出意外你查询的所有 API 都可以在这里找到，不仅限于于前端、后端，还包括设计模式、工具等。官网：https://www.runoob.com/ 展开2. 慕课网一个涵盖了几乎所有你想学习技术的视频教程的网站，有免费的也有付费的，免 …官网：https://www.imooc.c… 展开3. 在线工具一个涵盖了几乎所有你想使用的工具，包括但不限于图片识别、SQL 格式化、JS…官网：https://tool.lu/ 展开5. 找工作刷题网一个涵盖几乎所有面试题的刷题网站汇总，包括两个刷题网和一个大厂热点题 …官网1(刷题)：https://leetcode-cn.com/官网2(刷题)：https://www.lintcode.com/官网3(大厂热点题库)：http… 展开4. 找工作避坑名单一个涵盖几乎所有996、955的公司热点和时事的汇总列表，其实这是两个仓库。官 … 展开百度知道深夜有什么好的网址推荐？ - 百度知道2024年7月20日这里推荐几个适合深夜浏览的网站，让你的夜晚更加多彩丰富。 首先，对于热爱健身的你，Bodybuilding.com是个不错的选择。 这个网站不仅提供详尽的锻炼计划和营养方 …</p>
+<p>最适合晚上睡不着看的7个网站_https_工具_com2024年3月20日以下是七个适合晚上看的网站： 1. 菜鸟教程 (https://www.runoob.com/)：一个涵盖了几乎所有编程教程的文档网站，不仅限于于前端、后端，还包括设计模式、工具等。 这 …</p>
+<p>晚上在线观看的小视频你懂的 - 抖音5 天之前您在查找晚上在线观看的小视频你懂的吗？ 抖音综合搜索帮你找到更多相关视频、图文、直播内容，支持在线观看。 更有海量高清视频、相关直播、用户，满足您的在线观看需求。</p>
+<p>求个带颜色的网站，男人都爱看的，你懂的 - 东平拉呱- 东平 ...2015年5月17日晚上没事干啊，求个带颜色的网站，男人都爱看的，你懂的有的发个撒补充内容 (2015-9-2 20:48):最新男人网站，你懂的网址：44bbkk.com ... 求个带颜色的网站，男人都爱看 …</p>
+<p>最适合晚上睡不着看的 8 个网站，建议收藏哦_网站 …2023年3月21日一个涵盖热情的技术网站，继某DN被广告沦陷以后，这是一个非常指的观赏和学习的技术社区“掘金”，可以去看大佬们写的文章，也可以自己 …</p>
+<p>爱奇艺-全球领先的在线视频网站-海量正版高清视频 …2018年10月26日爱奇艺（iQIYI.COM）是全球领先的提供海量、优质、高清的网络视频服务的大型视频网站，网络视频播放首选平台。爱奇艺影视内容丰富多 …</p>
+<p>《网站晚上你懂》第14集-全集免费在线-达达兔影院14 小时之前简介：【网站晚上你懂】想生活在唐朝 ，生活在诗的 世界里。天 地久有时尽， 此恨 观全文，观点 辩证，结构 谨，论证方法 得当，不失 篇较 在她旁边犹 天鹅旁边的丑 小鸭，我 …</p>
+<p>你懂的！_高清1080P在线观看平台_腾讯视频2023年8月23日你懂的！腾讯视频高清1080P在线观看平台，提供丰富精彩的影视内容，满足你的观看需求。</p>
+<p>适合深夜偷偷看的5个小网站，你想要的都有错过就亏大了! - 知乎观看视频2024年1月31日适合深夜偷偷看的5个小网站，你想要的都有错过就亏大了! 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见解，找到自己的解答」为品牌使命。 知乎凭借认真、专业、友善的社区氛围、独特 …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>

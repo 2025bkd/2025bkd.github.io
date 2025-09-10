@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2048tw 2048核基地</title>
+<style>
+/* 基础样式 */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+}
+
+/* 通用样式 */
+.section {
+padding: 80px 0;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 12px 30px;
+background: #e91e63;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #0056b3;
+}
+
+/* 导航栏 */
+.navbar {
+position: fixed;
+width: 100%;
+background: rgba(255, 255, 255, 0.95);
+padding: 20px 0;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+z-index: 1000;
+}
+
+.nav-links {
+display: flex;
+gap: 30px;
+justify-content: flex-end;
+}
+
+.nav-links a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.nav-links a:hover {
+color: #007bff;
+}
+
+/* 首页横幅 */
+#home {
+background: linear-gradient(135deg, #6B48FF 0%, #e91e63 100%);
+color: white;
+padding-top: 120px;
+text-align: center;
+min-height: 100vh;
+display: flex;
+align-items: center;
+}
+
+.hero h1 {
+font-size: 3.5em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 30px;
+}
+
+/* 服务区块 */
+#services {
+background: #f8f9fa;
+}
+
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+
+.service-card {
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.service-card:hover {
+transform: translateY(-10px);
+}
+
+/* 关于区块 */
+#about {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.about-img {
+flex: 1;
+max-width: 500px;
+border-radius: 10px;
+}
+
+.about-text {
+flex: 1;
+}
+
+/* 联系表单 */
+.contact-form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+.nav-links {
+display: none;
+}
+
+.hero h1 {
+font-size: 2.5em;
+}
+
+#about {
+flex-direction: column;
+text-align: center;
+}
+}
+</style>
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar">
+<div class="container">
+<div class="nav-links">
+<a href=" ">首页</a >
+<a href="#services">服务</a >
+<a href="#about">关于</a >
+<a href="#contact">联系</a >
+</div>
+</div>
+</nav>
+
+<!-- 首页横幅 -->
+<section id="home" class="section">
+<div class="container hero">
+<h1>欢迎来到2048tw 2048核基地</h1>
+<p>专业提供优质黑料导航跳转入口</p >
+<a href="http://38.47.227.130/down.html" class="btn">🔗在线播放链接</a >
+<br><br>
+<a href="http://38.47.227.130/dm.html" class="btn">🔥線上动漫</a >
+</div>
+</section>
+
+<!-- 服务区块 -->
+<section id="services" class="section">
+<div class="container">
+<h2>我们的优势</h2>
+<div class="services-grid">
+<div class="service-card">
+<h3>更新速度快</h3>
+<p>内容更新速度快，播放速度流畅</p >
+</div>
+<div class="service-card">
+<h3>影片库数量较全</h3>
+<p>双端APP，支持Android、iOS版本（需自签）</p >
+</div>
+<div class="service-card">
+<h3>自建4K线路</h3>
+<p>可以避免内置广告干扰、提高播放速度和高清画质</p >
+</div>
+</div>
+</div>
+</section>
+
+<!-- 关于区块 -->
+<section id="about" class="section">
+<div class="container">
+<div class="about-text">
+<h2>关于2048tw 2048核基地</h2>
+<p>2048tw 2048核基地</p >
+<p>2048bbs网站 — Yandex: found 117 thousand results网站名称：2048核基地. 网站网址：点击进入. 网站作者：夜趣导航. 网站介绍： This is the classic version of 2048 game. Join the numbers and get to the 2048 tile. Play 2048 online for free …</p>
+<p>2048核基地如何进入论坛 - 百度知道2023年9月28日2048核基地如何进入论坛1、搜索核基地账号注册，进入第一个链接，点击加入核基地按钮。 2、输入账号和密码，图像字母验证码，同意注册协议，点击核基地账号按钮， …</p>
+<p>2048核基地-2048tw_2048核基地论坛_2048核基地最新在线 ...2025年2月12日2048核基地官网为您提供最新好看的2048核基地,2048tw,2048核基地论坛,2048核基地最新在线视频观看，每天第一时间更新2048核基地最新合集，全网更全更受欢迎 …</p>
+<p>人人为我吧-百度贴吧本吧热帖: 1-人人为我吧吧主招募结果公示 2-2025.8.29偶获一网址 3-求人人为我 我为人人的最新网址～ 4-求地址！！ 5-求地址 6 ...</p>
+<p>揭秘2048核基地隐藏入口位置与秘密通道2025年6月26日什么是2048核基地入口？ 当谈到“2048核基地入口”，我们首先会想到“核”这一关键词，它既可能指代核能相关技术，也可能暗示处理器领域中 …</p>
+<p>2048核基地：战术部件系统来袭，画质再升级！ - shareAE《2048核基地》作为一款现代装甲射击对抗游戏，展示了全球多国的先进军事技术，并且特别设立了完整的中国阵营，与美英联合阵营形成对抗局面。</p>
+<p>20482025年8月6日注： 本站是官方版本的 2048，仅由 Moe23333 进行了中文本地化。 您也可在移动端访问 https://moe2048.now.sh 进行游玩，并可在 GitHub 上查阅本站的源代码。 本游戏由 …</p>
+<p>人人为我，我为人人2048 - 抖音2025年7月11日（一） #2048大招版 #解压小游戏 #根本停不下来 #抖音小游戏 #万万没想到. 化学老师说要向数学老师请教一下 原素材27分钟，打素材不容易给个三连 #脑力游戏 鼓励一下 …</p>
+<p>2048 - 官方论坛 - TapTap2025年5月2日加入 TapTap 2048社区论坛，这里有完整细致的2048游戏攻略，精彩繁多的2048玩家视频，让您在最火爆的游戏社区找到志同道合的游戏 …</p>
+</div>
+</div>
+</section>
+
+<!-- 联系表单 -->
+<section id="contact" class="section">
+<div class="container">
+<h2>联系我们</h2>
+<form class="contact-form">
+<div class="form-group">
+<input type="text" placeholder="姓名" required>
+</div>
+<div class="form-group">
+<input type="email" placeholder="邮箱" required>
+</div>
+<div class="form-group">
+<textarea rows="5" placeholder="留言内容" required></textarea>
+</div>
+<button type="submit" class="btn">发送消息</button>
+</form>
+</div>
+</section>
+
+<script>
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+behavior: 'smooth'
+});
+});
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll', function() {
+if (window.scrollY > 100) {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.98)';
+} else {
+document.querySelector('.navbar').style.background = 'rgba(255,255,255,0.95)';
+}
+});
+</script>
+</body>
+</html>
